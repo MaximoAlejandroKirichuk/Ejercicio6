@@ -45,9 +45,6 @@ namespace MPP
             return lista;
 
         }
-        public Jugador EncontrarJugador(Jugador jug)
-        {
-
-        }
+        
     }
 }

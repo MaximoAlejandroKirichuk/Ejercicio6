@@ -1,6 +1,7 @@
 ﻿using BE;
 using MPP;
 using System;
+using System.Collections.Generic;
 
 namespace BLL
 {
@@ -21,9 +22,10 @@ namespace BLL
         {
             return mppJugador.Modificar(objeto);
         }
-        public Jugador EncontrarJugador(Jugador objeto)
+        
+        public List<Jugador> MostrarJugadores()
         {
-            return mppJugador.En
+            return mppJugador.ObtenerDatos();
         }
     }
 }

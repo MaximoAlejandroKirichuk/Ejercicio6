@@ -8,6 +8,6 @@ namespace DAL
 {
     internal static class StringConnection
     {
-        public static string stringConnection = "";
+        public static string stringConnection = "Server=localHost;Database=JuegosDB;Trusted_Connection=True;";
     }
 }

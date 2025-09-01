@@ -41,7 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IABM.cs" />
+    <Compile Include="BandoDAL.cs" />
+    <Compile Include="IDAL.cs" />
+    <Compile Include="JuegoBandoDAL.cs" />
+    <Compile Include="JuegoDAL.cs" />
     <Compile Include="JugarorDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringConnection.cs" />

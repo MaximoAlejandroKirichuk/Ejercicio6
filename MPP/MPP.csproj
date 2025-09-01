@@ -41,7 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="JuegoBandoMPP.cs" />
+    <Compile Include="JuegoMPP.cs" />
     <Compile Include="JugadorMPP.cs" />
+    <Compile Include="MPPBando.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

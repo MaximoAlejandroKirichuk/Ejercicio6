@@ -16,6 +16,11 @@ namespace BE
         {
             
         }
+        public Bando(string nombre, int idBando)
+        {
+            IdBando = idBando;
+            Nombre = nombre;
+        }
         public Bando(string nombre)
         {
             Nombre = nombre;

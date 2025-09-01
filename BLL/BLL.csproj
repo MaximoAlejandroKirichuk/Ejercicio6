@@ -41,6 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLLBando1.cs" />
+    <Compile Include="BLLJuego.cs" />
+    <Compile Include="BLLJuegoBando.cs" />
     <Compile Include="BLLJugador.cs" />
     <Compile Include="IABM.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

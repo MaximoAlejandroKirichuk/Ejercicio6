@@ -15,8 +15,14 @@ namespace BE
         public string  Genero { get; set; }
         public Juego(string nombre , string genero)
         {
-             Nombre = nombre;
+            Nombre = nombre;
             Genero = genero;
+        }
+        public Juego(string nombre, string genero,int idJuego)
+        {
+            Nombre = nombre;
+            Genero = genero;
+            IdJuego = idJuego;
         }
         public Juego()
         {
